@@ -3,12 +3,10 @@
   "description": "Transform between MDX and Slate schema",
   "author": "ScottAgirs <scott@ijs.to> (@scottagirs)",
   "repository": "https://github.com/ijsto/mdx-serializer",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src -d dist",
-    "test": "jest",
-    "prepare": "yarn build"
+    "test": "jest"
   },
   "keywords": [
     "mdx",
@@ -19,8 +17,12 @@
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@ijsto/eslint-config": "^4.1.3",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
     "eslint": "^7.26.0",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "rollup": "^2.47.0",
+    "rollup-plugin-eslint": "^7.0.0"
   },
   "dependencies": {
     "@babel/core": "^7.14.0",
@@ -33,6 +35,6 @@
     "slate": "^0.45.0",
     "slate-mdast-serializer": "^3.0.0",
     "unified": "^9.2.1",
-    "unist-util-visit": "^3.0.1"
+    "unist-util-visit": "2.0.3"
   }
 }
