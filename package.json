@@ -1,0 +1,39 @@
+{
+  "name": "mdx-serializer",
+  "description": "Transform between MDX and Slate schema",
+  "author": "ScottAgirs <scott@ijs.to> (@scottagirs)",
+  "repository": "https://github.com/ijsto/mdx-serializer",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest",
+    "prepare": "yarn build"
+  },
+  "keywords": [
+    "mdx",
+    "remark",
+    "serializer"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@ijsto/eslint-config": "^4.1.3",
+    "eslint": "^7.26.0",
+    "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "remark-mdx": "^1.0.15",
+    "remark-parse": "^6.0.3",
+    "remark-squeeze-paragraphs": "^3.0.3",
+    "remark-stringify": "^6.0.4",
+    "slate": "^0.45.0",
+    "slate-mdast-serializer": "^3.0.0",
+    "unified": "^9.2.1",
+    "unist-util-visit": "^3.0.1"
+  },
+  "gitHead": "376b5da738c62a2be6d1dbcc6d284977529c8865"
+}
