@@ -3,7 +3,7 @@
   "description": "Transform between MDX and Slate schema",
   "author": "ScottAgirs <scott@ijs.to> (@scottagirs)",
   "repository": "https://github.com/ijsto/mdx-serializer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest"
