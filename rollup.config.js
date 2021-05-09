@@ -1,6 +1,7 @@
-/* eslint-disable sort-keys */
 import { babel } from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
+// This will check all ESLinting while compiling.
+// Useful because will notify if anything should be fixed.
 import { eslint } from 'rollup-plugin-eslint';
 
 export default {
